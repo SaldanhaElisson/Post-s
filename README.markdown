@@ -29,7 +29,10 @@ Além disso, listar os comentários do post.
 Os elemento 1 - 2 - 3, são os post secundario, quando a interface é acessa pela primeira vez é gerado 3 post aleatorios e também é gerado o post principal 
 (elemento 4) junto com os comentarios do post principoal sorteado (elemento 5).
 
+Os elementos 1 - 2 - 3 é composto por: body, titulo e o username do usuario do post
+
 Ao clicar em qualquer dos post secundarios, automaticamente o post clicado será alocado para o lugar do post principal carregando todas as informçaões novas do post (comentario, compnay name entre outros) e será sorteado mais 3 elementos post secundarios
 
+link do projeto: [posts](https://saldanhaelisson.github.io/Post-s/)
 
 
