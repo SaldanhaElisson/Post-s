@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+:root{
+  --font_title: 'Roboto', sans-serif;
+  --font_simples: 'Open Sans', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box
+}
+
+body{
+  background: #979DA6
+}
+
+header{
+  width: 100%;
+  height: 4rem;
+  background: #68788C;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: var(--font_title);
+}
+
+h2{
+  font-size: 93%;
+  font-family: var(--font_title);
+}
+
+.fourPosts{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+}
+
+.fourPosts > div{
+  margin-top: 1rem;
+  width: 15rem;
+  height: 12rem;
+  background: #F2D64B;
+  
+}
+
+.fourPosts > div:hover{
+  background:#A68F1F;
+  cursor:pointer;
+}
+
+.description {
+  text-align:center;
+  width: 100%;
+  height:10rem;
+}
+section{
+  display: flex;
+  width: 100%;
+  height: 95%;
+  
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 2rem;
+  
+}
+
+.postCard{
+  width: 18rem;
+  height:100%;
+  background: #F2E205;
+  
+  display: grid;
+  grid-template-rows: 18rem 1fr;
+  grid-template-areas: 'POST'
+                    'COMENTARIO'
+}
+
+.postMain{
+  grid-area: POST;
+  justify-self: center;
+  align-self: center;
+  
+  height:100%;
+}
+
+.postMain > h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+ 
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.comentarios{
+  grid-area: COMENTARIO;
+  
+  align-self: center;
+  justify-self: center;
+}
+
+.comentario{
+  width: 17rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  
+  border-radius: 3px;
+  background: #68788C;
+}
+
+.comentario > p {
+  font-size: 0.8rem;
+}
+
+.usarioComentario {
+  margin-bottom: 0.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content:center;
+  position: bottom;
+  
+  background: #000;
+  color: #FFF;  
+  
+  border-radius: 3px 3px 0 0;
+  height: 1rem; 
+}
