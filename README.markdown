@@ -33,6 +33,6 @@ Os elementos 1 - 2 - 3 é composto por: body, titulo e o username do usuario do 
 
 Ao clicar em qualquer dos post secundarios, automaticamente o post clicado será alocado para o lugar do post principal carregando todas as informçaões novas do post (comentario, compnay name entre outros) e será sorteado mais 3 elementos post secundarios
 
-link do projeto: [posts](https://saldanhaelisson.github.io/Post-s/dist/index.html
+link do projeto: [posts](https://saldanhaelisson.github.io/Post-s/dist/index.html)
 
 
